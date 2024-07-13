@@ -1,0 +1,58 @@
+:root {
+  --clr-primary-400: hsl(246, 80%, 60%);
+
+  --clr-stat-1: hsl(15, 100%, 70%);
+  --clr-stat-2: hsl(195, 74%, 62%);
+  --clr-stat-3: hsl(348, 100%, 68%);
+  --clr-stat-4: hsl(145, 58%, 55%);
+  --clr-stat-5: hsl(264, 64%, 52%);
+  --clr-stat-6: hsl(43, 84%, 65%);
+
+  --clr-neutral-200: hsl(236, 100%, 87%);
+  --clr-neutral-400: hsl(235, 45%, 61%);
+  --clr-neutral-600: hsl(235, 46%, 20%);
+  --clr-neutral-800: hsl(226, 43%, 10%);
+
+  --ff-400: "Rubik", sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+
+  --fs-300: 0.9375rem;
+  --fs-500: 1.125rem;
+
+  --fs-fluid-300: clamp(1.5rem, 1.1479rem + 1.5023vw, 2.5rem);
+  --fs-fluid-500: clamp(2rem, 1.4718rem + 2.2535vw, 3.5rem);
+}
+
+/* josh comeau reset */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+html,
+body {
+  height: 100%;
+}
+
